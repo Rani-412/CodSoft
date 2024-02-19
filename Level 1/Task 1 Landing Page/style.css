@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+.nav1{
+    width:100%;
+    height: 50px;
+    color: white;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.nav1 i{
+    margin:0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: rgb(248, 251, 253);
+    padding:5px 10px  ;
+    background:pink ;
+}
+.nav2{
+    width:100%;
+    height:80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding:  10px 20px;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url("pinkcake.jpg");
+    background-size: 100% 100%;
+}
+.text{
+    max-width: 600px;
+    color: brown ;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    text-align: center;
+  
+}
+.text h1{
+    font-size: 30px;
+    font-family: 'Playfair Display';
+}
+.text p{
+    font-size: 15px;
+   
+}
+
+/*.text a{
+    text-decoration: none;
+    color: white;
+    background: rgb(238, 164, 164);
+    text-align: end;
+}
+    /*padding: 10px 20px;*/
+    
+   
+   
